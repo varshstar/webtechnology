@@ -1,0 +1,47 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 100vh;
+    background-color: darkgrey;
+}
+.navbar-style
+{
+    box-shadow: 0 5px 10px #2c3341;
+    text-transform: uppercase;
+    background-color: #ace5ee;
+}
+.logo
+{
+    height: 50px;
+    padding: 2px 10px;
+    background-color: #a40000;
+}
+.icon-bar
+{
+    background-color: black;
+}
+li a
+{
+    
+    background-color: #edc9af;
+    color: rgb(233, 10, 10);
+}
+.big-text
+{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #ffe4c4;
+}
+.banner-info
+{
+    margin: 30px 0;
+    
+}
+.mx-auto
+{
+    margin: 40px 230px;
+    width: 600px;
+}
