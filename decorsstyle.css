@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{ 
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+ font-family: 'Poppins', sans-serif;
+}
+#navbar
+{
+ position: sticky;
+ top: 0;
+ left: 0;
+ z-index: 100;
+ padding: .5rem 5rem;
+ box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+ background: #f88379;
+}
+.navbar .navbar-brand{
+ font-size: 25px;
+ font-weight:800;
+ color:#003366 !important;
+}
+#navbarSupportedContent a{
+color: #fff;
+border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+ border-bottom: 2px solid #cc0000;
+}
+
+section{
+width: 100;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#home{
+ background: url(d2.jfif);
+background-size: cover;
+background-position: center;
+font-size: 100px;
+letter-spacing: 3px;
+}
+#home h1{
+font-size: 60px;
+letter-spacing: 3px;
+font-family: verdana,geneva,tohma,sans-serif;
+text-shadow: 0px 1px #fff,
+             0px 2px #fff,
+              0px 3px #fff,
+              0px 4px #fff,
+              0px 5px #fff,
+              0px 6px #fff,
+              0px 7px #fff;
+}
+#about{
+background: #f4c2c2;
+}
+#about h1{
+font-weight: 800;
+font-size:50px;
+color: #2a52be;
+}
+#product{
+background: #e6e8fa;
+}
+#product h1{
+font-size: 50px;
+letter-spacing: 2px;
+font-weight: 700;
+}
+#product img{
+ width: 200px;
+heigth:200px;
+background:white;
+}
+.card{
+width: 200px;
+heigth:200px;
+background:#ace1af;
+box-shadow:25px 30px 30px #556b2f ,
+           inset 8px 8px 12px white;
+
+overflow:hidden;
+justify-content:center;
+align-items:center;
+ margin: 30px 60px;         
+}
+.card:hover{
+ box-shadow: inset 25px 30px 30px #e6e8fa;
+}
